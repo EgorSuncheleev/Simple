@@ -1,0 +1,27 @@
+.hero__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6.25rem;
+  padding-top: 3.75rem;
+}
+
+.hero__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1.875rem;
+  width: 27.8125rem;
+
+    &-title {
+      font: 400 3.75rem "Roboto", sans-serif;
+      color: var(--color-dark-gray);
+    }
+
+    &-text {
+      font: 400 1.125rem "Roboto", sans-serif;
+      line-height: 150%;  
+      color: var(--color-light-gray);
+    }
+}

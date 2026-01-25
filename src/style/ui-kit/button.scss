@@ -1,0 +1,23 @@
+.button {
+  padding: 1.25rem 3.125rem;
+  background-color: transparent;
+  border: 1px solid var(--color-light-blue);
+  color: var(--color-light-blue);
+  font: 400 1.25rem "Roboto", sans-serif;
+}
+
+.button:hover {
+  color: var(--color-white);
+  transition: color 0.3s ease;
+  background-color: var(--color-light-blue);
+}
+
+.button:focus-visible {
+  border: 1px solid var(--color-light-blue);
+  background-color: var(--color-ultra-blue);
+}
+
+.button:active {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}

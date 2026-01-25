@@ -1,0 +1,27 @@
+.sceth__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.875rem;
+  padding-top: 5.625rem;
+
+    &-desctiption {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      gap: .625rem;
+
+        &-title {
+          font: 400 2.5rem "Roboto", sans-serif;
+          color: var(--color-gray);
+        }
+
+        &-text {
+          font: 400 1.125rem "Roboto", sans-serif;
+          line-height: 170%;
+          color: var(--color-light-gray);
+          margin-bottom: 1.25rem;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+@mixin flex-center {
+  // Что бы использовать пишем @include flex-center
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// У меня почему то не работают миксины

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif; // Подключаем шрифты
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 9.375rem;
+  max-width: 90rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container__title {
+  display: flex;
+  gap: 7.8125rem;
+  padding-top: 3.75rem;
+}

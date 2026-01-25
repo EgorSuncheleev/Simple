@@ -1,0 +1,37 @@
+.header__menu-link:hover {
+  color: var(--color-light-blue);
+  transition: color 0.3s ease;
+}
+
+.header__menu-link:focus-visible {
+  // Современные ребята вроде так делают, поддержку клавиатуры, а мышки нет, что бы не было эффекта зависания после клика
+  color: var(--color-dark-gray);
+  background-color: var(--color-ultra-blue);
+}
+
+.header__menu-link:active {
+  color: var(--color-ultra-blue);
+  background-color: var(--color-white);
+}
+
+// ---------------------- Значок логина ---------------- //
+
+.login {
+  color: var(--color-dark-gray);
+  fill: currentColor;
+  background-color: transparent;
+}
+
+.login:hover {
+  color: var(--color-light-blue);
+  transition: color 0.3s ease;
+}
+
+.header__icons-link:focus-visible {
+  color: var(--color-light-blue);
+  background-color: var(--color-ultra-blue);
+}
+
+.login:active {
+  color: var(--color-blue);
+}

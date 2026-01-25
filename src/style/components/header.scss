@@ -1,0 +1,41 @@
+.header {
+  border-bottom: 1px solid var(--color-line);
+}
+
+.header__group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.75rem 0.9375rem;
+}
+
+.header__logo {
+  margin-right: 17.1875rem;;; // Егор, я знаю что так делать нельзя, подскажи как правильно стилизовать, что было и красиво и правильно
+  // Потому что если мы див засунем внутри nav то тогда будет семантическая ошибка, а так уродск какой-то получился
+}
+
+.header__nav {
+  margin-right: 3.75rem;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: center;
+  gap: 3.75rem;
+  align-items: center;
+
+  &-link {
+    color: var(--color-dark-gray);
+    text-decoration: none;
+    font:
+      400 1.25rem "Roboto",
+      sans-serif;
+  }
+}
+
+.header__actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.875rem;
+}

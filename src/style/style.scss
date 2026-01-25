@@ -1,0 +1,24 @@
+// Подключение основный глобальных файлов
+
+@import url(./global/reset.scss); // Глобальный сброс всех стилей
+@import url(./global/variables.scss); // Подключаем переменные
+@import url(./global/mixins.scss); // Подключаем миксины
+@import url(./global/global.scss); // Подключаем глобальные стили
+
+// ------------------------ //
+
+// Подключаем компоненты сайта //
+
+@import url(./components/header.scss); // Шапка сайта, первая секция
+@import url(./components/hero.scss); // Вторая секция
+@import url(./components/result.scss); // Третья секция 
+@import url(./components/shop.scss); // Четвертая секция
+@import url(./components/company.scss); // Пятая секция
+@import url(./components/scetch.scss); // Шестая секция
+@import url(./components/footer.scss); // Подвал сайта, последняя секция
+
+// Комопоненты стилизации ссылок и кнопок
+
+@import url(./ui-kit/header__link.scss);
+@import url(./ui-kit/button.scss);
+@import url(./ui-kit/shop__link.scss);
