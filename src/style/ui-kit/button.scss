@@ -21,3 +21,15 @@
   background-color: var(--color-blue);
   color: var(--color-white);
 }
+
+@media (max-width: 48rem) {
+  .button {
+    padding: 1.125rem 3.75rem;
+  }
+}
+
+@media (max-width: 36rem) {
+  .button {
+    padding: .875rem 2.375rem;
+  }
+}

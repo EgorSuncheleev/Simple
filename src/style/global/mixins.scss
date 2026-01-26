@@ -1,6 +1,7 @@
 @mixin flex-center {
   // Что бы использовать пишем @include flex-center
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

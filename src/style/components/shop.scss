@@ -2,7 +2,9 @@
   padding: 5.625rem 0;
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1.875rem;
 
     &-item {
@@ -10,6 +12,7 @@
       flex-direction: column;
       align-items: start;
       justify-content: center;
+      max-width: 15.9375rem;
 
         &-picture {
           max-width: 15.9375rem;
@@ -49,4 +52,14 @@
           }
       }
     }
+}
+
+@media (max-width: 36rem) {
+  .shop__cards-item-content-title {
+    font-size: 1.5rem;
+  }
+
+  .shop__cards-item-content-text {
+    font-size: .875rem;
+  }
 }

@@ -5,12 +5,26 @@
   gap: 1.875rem;
   padding-top: 5.625rem;
 
+    &-picture {
+      max-width: 45.625rem;
+      width: 100%;
+
+
+        &-img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+    }
+
     &-desctiption {
       display: flex;
       flex-direction: column;
       align-items: start;
       justify-content: center;
       gap: .625rem;
+      max-width: 21.875rem;
+      width: 100%;
 
         &-title {
           font: 400 2.5rem "Roboto", sans-serif;
@@ -24,4 +38,33 @@
           margin-bottom: 1.25rem;
         }
     }
+}
+
+@media (max-width: 62rem) {
+  .sceth__content {
+    padding-bottom: 3.75rem;
+  }
+
+  .sceth__content-desctiption-title {
+    font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 48rem) {
+
+    .sceth__content-desctiption-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 36rem) {
+    .sceth__content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+
+  .sceth__content-desctiption {
+    max-width: 100%;
+  }
 }

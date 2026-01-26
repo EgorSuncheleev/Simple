@@ -14,14 +14,68 @@
   gap: 1.875rem;
   width: 27.8125rem;
 
-    &-title {
-      font: 400 3.75rem "Roboto", sans-serif;
-      color: var(--color-dark-gray);
-    }
+  &-title {
+    font:
+      400 3.75rem "Roboto",
+      sans-serif;
+    color: var(--color-dark-gray);
+  }
 
-    &-text {
-      font: 400 1.125rem "Roboto", sans-serif;
-      line-height: 150%;  
-      color: var(--color-light-gray);
-    }
+  &-text {
+    font:
+      400 1.125rem "Roboto",
+      sans-serif;
+    line-height: 150%;
+    color: var(--color-light-gray);
+  }
+}
+
+@media (max-width: 62rem) {
+  .hero__description-title {
+    font-size: 3.125rem;
+  }
+
+  .hero__content {
+    display: flex;
+    gap: 3.75rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .hero__description-title {
+    font-size: 2.375rem;
+  }
+
+  .hero__content {
+    padding-top: 1.25rem;
+  }
+
+  .hero__description-text {
+    font-size: 1rem;
+  }
+
+  .hero__description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 36rem) {
+  .hero__picture {
+    // Картинка дерганная какая-то получилось, почему то не могу ее адаптировать, только размер картинки меняется, а плавного перехода нет
+    display: none;
+  }
+
+  .hero__description-title {
+    font-size: 1.875rem;
+  }
+
+  .hero__description-text {
+    font-size: 0.875rem;
+  }
+
+  .hero__content {
+    padding-bottom: 2.5rem;
+  }
 }
