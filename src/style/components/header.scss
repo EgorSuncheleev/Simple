@@ -4,14 +4,16 @@
 
 .header__group {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 1.75rem 0.9375rem;
+  padding: 1.75rem .625rem;
 }
 
-.header__logo {
-  margin-right: 17.1875rem;;; // Егор, я знаю что так делать нельзя, подскажи как правильно стилизовать, что было и красиво и правильно
-  // Потому что если мы див засунем внутри nav то тогда будет семантическая ошибка, а так уродск какой-то получился
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.75rem;
 }
 
 .header__nav {
