@@ -57,9 +57,35 @@
 @media (max-width: 36rem) {
   .shop__cards-item-content-title {
     font-size: 1.5rem;
+    padding-top: .9375rem;
   }
 
   .shop__cards-item-content-text {
     font-size: .875rem;
+  }
+
+  .result__description-content {
+    max-width: 18.125rem;
+  }
+
+  .shop__cards  {
+    padding-top: 3.75rem;
+    gap: 3.125rem;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shop__cards-item-picture {
+    max-width: 18.125rem;
+  }
+
+  .shop__cards-item {
+    max-width: 18.125rem;
+  }
+
+  .shop__cards-item-picture-img {
+    width: 18.125rem;
   }
 }

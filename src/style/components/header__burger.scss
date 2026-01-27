@@ -1,0 +1,9 @@
+.header__burger {
+  display: none;
+}
+
+@media (max-width: 36rem) {
+  .header__burger {
+    display: block;
+  }
+}

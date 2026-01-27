@@ -17,10 +17,6 @@
   gap: 3.75rem;
 }
 
-.header__burger {
-  display: none;
-}
-
 .header__nav {
   margin-right: 3.75rem;
 }
@@ -114,9 +110,6 @@
 }
 
 @media (max-width: 36rem) {
-  .header__burger {
-    display: block;
-  }
 
   .header__nav {
     display: none;

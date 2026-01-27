@@ -26,6 +26,12 @@ main {
   width: 100%;
 }
 
+@media (max-width: 62rem) {
+  .container {
+  padding: 0 .625rem;
+  }
+}
+
 .container__title {
   display: flex;
   gap: 7.8125rem;

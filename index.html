@@ -36,11 +36,7 @@
       <div class="header__wrapper">
 
         <div class="header__burger">
-          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M4.6875 21.5625C4.6875 21.3139 4.78627 21.0754 4.96209 20.8996C5.1379 20.7238 5.37636 20.625 5.625 20.625H24.375C24.6236 20.625 24.8621 20.7238 25.0379 20.8996C25.2137 21.0754 25.3125 21.3139 25.3125 21.5625C25.3125 21.8111 25.2137 22.0496 25.0379 22.2254C24.8621 22.4012 24.6236 22.5 24.375 22.5H5.625C5.37636 22.5 5.1379 22.4012 4.96209 22.2254C4.78627 22.0496 4.6875 21.8111 4.6875 21.5625ZM4.6875 14.0625C4.6875 13.8139 4.78627 13.5754 4.96209 13.3996C5.1379 13.2238 5.37636 13.125 5.625 13.125H24.375C24.6236 13.125 24.8621 13.2238 25.0379 13.3996C25.2137 13.5754 25.3125 13.8139 25.3125 14.0625C25.3125 14.3111 25.2137 14.5496 25.0379 14.7254C24.8621 14.9012 24.6236 15 24.375 15H5.625C5.37636 15 5.1379 14.9012 4.96209 14.7254C4.78627 14.5496 4.6875 14.3111 4.6875 14.0625ZM4.6875 6.5625C4.6875 6.31386 4.78627 6.0754 4.96209 5.89959C5.1379 5.72377 5.37636 5.625 5.625 5.625H24.375C24.6236 5.625 24.8621 5.72377 25.0379 5.89959C25.2137 6.0754 25.3125 6.31386 25.3125 6.5625C25.3125 6.81114 25.2137 7.0496 25.0379 7.22541C24.8621 7.40123 24.6236 7.5 24.375 7.5H5.625C5.37636 7.5 5.1379 7.40123 4.96209 7.22541C4.78627 7.0496 4.6875 6.81114 4.6875 6.5625Z"
-              fill="#4C5866" />
-          </svg>
+          <button class="burger">☰</button>
         </div>
 
         <nav class="header__nav">
@@ -108,7 +104,7 @@
       <div class="container">
         <div class="result__cards">
 
-          <div class="result__cards-item">
+          <div class="result__cards-item result__cards-item-line">
             <div class="result__cards-picture">
               <img src="./public/image/business-cards-v1.png" alt="Картинка бумажки" class="result__cards-img">
             </div>
@@ -268,20 +264,20 @@
     <section class="company">
       <div class="container">
         <div class="company__cards">
-        <div class="company__cards-item">
-          <img src="./public/image/company-petyh.png" alt="#" class="company__cards-item-img">
+          <div class="company__cards-item">
+            <img src="./public/image/company-petyh.png" alt="#" class="company__cards-item-img">
+          </div>
+          <div class="company__cards-item">
+            <img src="./public/image/company-img-1.png" alt="#" class="company__cards-item-img">
+          </div>
+          <div class="company__cards-item">
+            <img src="./public/image/company-img-2.png" alt="#" class="company__cards-item-img">
+          </div>
+          <div class="company__cards-item">
+            <img src="./public/image/company-img-3.png" alt="#" class="company__cards-item-img">
+          </div>
         </div>
-        <div class="company__cards-item">
-          <img src="./public/image/company-img-1.png" alt="#" class="company__cards-item-img">
-        </div>
-        <div class="company__cards-item">
-          <img src="./public/image/company-img-2.png" alt="#" class="company__cards-item-img">
-        </div>
-        <div class="company__cards-item">
-          <img src="./public/image/company-img-3.png" alt="#" class="company__cards-item-img">
-        </div>
-        </div>
-    </div>
+      </div>
     </section>
     <section class="sceth">
       <div class="container">
@@ -297,10 +293,17 @@
             </div>
             <button class="button sceth__content-desctiption-button">Купить</button>
           </div>
-
-          <div class="sceth__content-picture">
-            <img src="./public/image/sceth-img.png" alt="Продукт компании в виде дневника" class="sceth__content-picture-img">
-          </div>
+          <picture class="sceth__content-picture">
+            <source class="sceth__content-picture-img" media="(min-width: 1200px)"
+              srcset="./public/image/sceth-img.png">
+            <source class="sceth__content-picture-img" media="(min-width: 768px)"
+              srcset="./public/image/scetch-medium.png">
+            <source class="sceth__content-picture-img" media="(min-width: 576px)"
+              srcset="./public/image/scecth-576.png">
+            <source class="sceth__content-picture-img" media="(max-width: 576px)"
+              srcset="./public/image/scetch-low.png">
+            <img src="small.jpg" alt="Пример изображения">
+          </picture>
         </div>
       </div>
     </section>
