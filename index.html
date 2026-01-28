@@ -294,15 +294,11 @@
             <button class="button sceth__content-desctiption-button">Купить</button>
           </div>
           <picture class="sceth__content-picture">
-            <source class="sceth__content-picture-img" media="(min-width: 1200px)"
-              srcset="./public/image/sceth-img.png">
-            <source class="sceth__content-picture-img" media="(min-width: 768px)"
-              srcset="./public/image/scetch-medium.png">
-            <source class="sceth__content-picture-img" media="(min-width: 576px)"
-              srcset="./public/image/scecth-576.png">
-            <source class="sceth__content-picture-img" media="(max-width: 576px)"
-              srcset="./public/image/scetch-low.png">
-            <img src="small.jpg" alt="Пример изображения">
+            <source srcset="./public/image/sceth-img.png" media="(min-width: 1200px)">
+            <source srcset="./public/image/scetch-medium.png" media="(min-width: 768px) and (max-width: 1199px)">
+            <source srcset="./public/image/scecth-576.png" media="(min-width: 576px) and (max-width: 767px)">
+            <source srcset="./public/image/scetch-low.png" media="(max-width: 575px)">
+            <img src="./public/image/book-low.png" alt="Описание изображения" class="sceth__content-picture-img">
           </picture>
         </div>
       </div>
