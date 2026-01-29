@@ -167,14 +167,16 @@
   }
 
   .result__cards-picture {
-    max-width: 8.125rem;
+    max-width: 300px;;
   }
 
   .result__description {
     padding-top: 3.75rem;
   }
 
-  .result__description-content {
-    gap: .875rem;
-  }
+
+
+      .result__description-content {
+        max-width: 31.875rem;
+      }
 }

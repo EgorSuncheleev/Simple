@@ -14,15 +14,7 @@
       justify-content: center;
       max-width: 15.9375rem;
 
-        &-picture {
-          max-width: 15.9375rem;
-          max-height: 11.25rem;
 
-            &-img {
-              width: 100%;
-              height: 100%;
-            }
-        }
 
       &-content {
         padding-top: 1.25rem;
@@ -57,15 +49,10 @@
 @media (max-width: 36rem) {
   .shop__cards-item-content-title {
     font-size: 1.5rem;
-    padding-top: .9375rem;
   }
 
   .shop__cards-item-content-text {
     font-size: .875rem;
-  }
-
-  .result__description-content {
-    max-width: 18.125rem;
   }
 
   .shop__cards  {
@@ -77,15 +64,14 @@
     justify-content: center;
   }
 
-  .shop__cards-item-picture {
-    max-width: 18.125rem;
-  }
+  // .shop__cards-item-picture {
+    
+  // }
 
-  .shop__cards-item {
-    max-width: 18.125rem;
-  }
+  // .shop__cards-item {
+  //     
+  //   }
 
-  .shop__cards-item-picture-img {
-    width: 18.125rem;
-  }
+    // .shop__cards-item-picture-img {
+    // }
 }
